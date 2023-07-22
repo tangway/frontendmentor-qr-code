@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+/* CSS reset just for box-sizing */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+/* end of CSS reset */
+
+html,
+body {
+  height: 100%;
+}
+
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(212, 45%, 89%);
+}
+
+p {
+  font-size: 1rem;
+}
+
+.container {
+  background-color: white;
+  max-width: 20rem;
+  padding: 1em;
+  margin: 1.5em;
+  border-radius: 30px;
+  font-family: 'Outfit', sans-serif;
+}
+
+img {
+  border-radius: 20px;
+  width: 100%;
+}
+
+.text-boxes {
+  padding: 1em;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+p {
+  text-align:center;
+  color: hsl(220, 15%, 55%);
+  font-size: 1rem;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+footer {
+  position: fixed; 
+  bottom: 1.5rem;
+  height: 2rem;
+}
+
+.attribution-footer {
+  font-size: 1rem;
+  font-family: 'Outfit', sans-serif;
+  text-align: center;
+}
+
+.attribution-footer a {
+  color: hsl(228, 45%, 44%);
+}
