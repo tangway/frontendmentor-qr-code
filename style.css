@@ -64,8 +64,8 @@ p {
 
 footer {
   position: fixed; 
-  bottom: 1.5rem;
-  height: 2rem;
+  bottom: 1.5em;
+  height: 2em;
 }
 
 .attribution-footer {
